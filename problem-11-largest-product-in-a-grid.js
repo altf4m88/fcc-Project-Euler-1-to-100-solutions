@@ -69,9 +69,6 @@ function largestGridProduct(arr) {
 
       let diagonalLeft = num;
       let selectedArrayDiagonalLeft = [num];
-      let indexArray = [
-        [3, 1], [2, 2], [1, 3]
-      ]
       for (let i = 1; i < 4; i++) {
         let nextGridIndex = gridIndex + i;
         let nextIndex = numIndex - i;
